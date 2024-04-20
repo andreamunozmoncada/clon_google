@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css?lang=es&family=Product+Sans|Roboto:400,700');
+
+.gb_ib:not(.gb_kd) {
+    font: 13px/27px Roboto, Arial, sans-serif;
+    z-index: 986
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "roboto", sans-serif;
+}
+
+body {
+    background-color: black;
+}
+
+.navbar {
+    display: flex;
+    height: 48px;
+    padding: 8px;
+    align-items: center;
+    justify-content: end;
+    color: #f5f5f5;
+    font-size: 13px;
+}
+
+.navbar__elements {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar__ul {
+    display: flex;
+    justify-content: center;
+    padding-right: 15px;
+}
+
+.navbar__li {
+    padding-left: 15px;
+    list-style: none;
+
+}
+
+
+.navbar__li:hover {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+
+.navbar__media {
+    display: flex;
+    align-items: center;
+    /* alinea los elementos verticalmente  */
+    justify-content: center;
+    /* Alinea los elementos horizontalmente  */
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 48px;
+    height: 48px;
+}
+.navbar__ball{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    margin-left: 10px;
+}
+.navbar__ball:hover{
+    background-color: #828282;
+    border-radius: 50%;
+}
+
+.navbar__imagemenu {
+    fill: #f5f5f5;
+    width: 24px;
+    height: 24px;
+}
+
+.botella {
+    fill: #f5f5f5;
+}
+.botella:hover{
+    background-color: #9e9b9b;
+    border-radius: 50%; 
+}
+
+.navbar__profile {
+    width: 48px;
+    height: 48px;
+    border-radius: 50%;
+    background-image: url("../assets/img/circle.svg"), url("https://lh3.google.com/u/0/ogw/AF2bZyh92wLwdHzti9u882NKd2x1eq5EUu-8pZ-70AkbjsC9Qg=s32-c-mo");
+    /* esto para el circulo que rodea la burbuja de la cuenta  */
+    background-position: center;
+    background-size: contain, cover;
+}
+
+/* __________seccion main: contenedor principal ______________ */
+
+main {
+    display: flex;
+    flex-direction: column;
+    /* cuando se usa esta propiedad la forma de alineacion vertical y horizontal se invierte */
+    align-items: center;
+    /* alinea los elementos horizontalmente */
+    justify-content: center;
+    /* alinea los elementos verticalmente  */
+}
+
+.main_logo {
+    width: 272px;
+    height: 200px;
+    margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.main_search {
+    width: 561px;
+    height: 44px;
+    padding: 1px 1px;
+    box-shadow: 0 1px 6px 0 #ffffff;
+    border-radius: 50px;
+    display: grid;
+    grid-template-columns: 52px 422px 41px 41px;
+    grid-template-rows: 44px;
+    justify-items: center;
+    align-items: center;
+    /*  background-color: #ffffff; */
+
+}
+
+.main__input {
+    width: 422px;
+    height: 42px;
+    border: none;
+    outline: none;
+    background-color: black;
+    color: #f5f5f5;
+}
+
+.main__img {
+    cursor: pointer;
+}
+
+.main__img--icons {
+    width: 24px;
+    height: 24px;
+}
